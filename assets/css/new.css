@@ -1,0 +1,14 @@
+#web-title{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#header {
+    background: #37517e;
+    padding: 20px;
+}
+#navbar > ul ,
+#navbar{
+    background-color: transparent ;
+
+}

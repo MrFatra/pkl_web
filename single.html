@@ -26,79 +26,69 @@
 
     img {
         height: 70vh;
-        width: fit-content;
+        border-radius: 15px;
         background-size: cover;
     }
 
     .header-img {
-        background-image: url('https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bmV0d29ya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60');
+        background-image: url('https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
         background-repeat: no-repeat;
         background-size: cover;
-        padding-top: 1em;
-        padding-bottom: 1em;
+        width: 100vw;
+    }
+
+    .glass {
+        background: rgba(255, 255, 255, 0.068);
+        backdrop-filter: blur(5px);
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    @media screen and (max-width: 680px) {
+        img {
+            background-size: cover;
+            max-width: 90vw;
+        }
     }
 </style>
 
 <body>
     <div class="text-center">
         <div class="header-img">
-            <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bmV0d29ya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-                alt="Network">
+            <div class="glass">
+                <img src="https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                    alt="Network" style="background-size: cover;">
+            </div>
         </div>
-        <div class=" container">
-            <p class="display-3">Title Here</p>
-            <p class="fw-semibold">Created with <span class="text-danger">❤</span> by Lorem, on August 2021</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dolorum labore
-                corporis
-                quis eum harum
-                voluptatibus mollitia hic nemo explicabo, assumenda blanditiis necessitatibus unde consequatur odio a
-                quas,
-                ducimus sint quasi distinctio quos. Porro dicta repudiandae nam maiores fuga dolorem ipsa libero
-                incidunt!
-                Ad
-                maiores ut placeat iusto tempora, hic accusamus inventore in a natus quisquam? Earum recusandae
-                quibusdam
-                impedit ratione assumenda, natus, vero nemo debitis ducimus architecto voluptatum tempora veniam aut,
-                facilis
-                fugiat incidunt nam perspiciatis cumque dolor. Nobis deleniti quae fuga laboriosam veniam, ut eum modi.
-                Sequi
-                eos minus nulla quasi dolore unde cum rem temporibus illum est qui eveniet, ducimus non magni suscipit
-                soluta
-                aspernatur quibusdam ex, sunt assumenda incidunt amet hic delectus. Omnis nisi praesentium vero
-                molestias
-                quibusdam obcaecati tempore accusantium impedit? Iste a impedit blanditiis saepe porro quidem enim,
-                officiis
-                doloribus cum, provident recusandae iure ratione error. Consequuntur facere quas repellat corrupti,
-                incidunt
-                dicta quos dolore. Vero voluptas reprehenderit natus recusandae, libero facere officia ipsa? Dignissimos
-                est
-                consequatur omnis excepturi maiores cupiditate officiis, ea officia animi. Labore, incidunt voluptate
-                fugit
-                ad,
-                perspiciatis officiis pariatur id ducimus sit quis cum laboriosam facilis vitae! Veritatis rem atque,
-                totam
-                blanditiis sequi consectetur, distinctio eaque repellat doloremque dicta cumque? Itaque ducimus laborum
-                velit
-                nihil inventore aliquid repellendus accusamus odio saepe harum unde qui molestiae, a minus et dolorum
-                numquam,
-                amet exercitationem? Repellat facilis exercitationem odio quae provident veritatis magnam nulla nesciunt
-                voluptate nam reprehenderit ducimus ea, tempore tenetur expedita iste velit! Repellat nesciunt aut,
-                corporis
-                deserunt alias minus est maiores odio repellendus quibusdam eligendi adipisci amet iusto. Ullam rerum
-                quibusdam
-                totam neque nemo, nisi quasi. Veritatis voluptas in laboriosam, rerum explicabo id numquam nostrum, esse
-                placeat
-                eveniet voluptatibus sunt, inventore quisquam sit! Sed sequi officiis veniam, ipsum vel quam unde enim
-                eius
-                esse
-                perspiciatis saepe reiciendis alias commodi delectus provident ad in ducimus at impedit quos! A, fugit
-                nihil
-                veritatis accusantium, hic perferendis facilis eum aliquid rem illum porro debitis similique! Eaque
-                reprehenderit, architecto laudantium nesciunt quae blanditiis maiores ullam sint voluptate illo iure,
-                eligendi
-                necessitatibus delectus voluptatibus consequuntur commodi ratione deleniti. Cupiditate nihil dolore
-                nulla,
-                maxime distinctio ad.</p>
+        <div class="container">
+            <p class="display-3 mt-5 ms-5 me-5 ">Title Here</p>
+            <p class="fw-semibold mb-4 fs-5">Created by Lorem, on August 2021</p>
+            <div class="row">
+                <div class="col-lg-6">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam doloribus sapiente sed ipsum ut, eaque
+                    hic culpa asperiores deserunt, praesentium tenetur porro facilis iure itaque voluptas debitis
+                    accusamus excepturi voluptates perspiciatis? Inventore fuga numquam id quae nam aliquam! Cumque eum
+                    consequatur voluptate sequi tempora inventore quisquam recusandae, temporibus dignissimos assumenda
+                    dolorum enim sit nostrum labore, deleniti et. Similique molestias maxime cum voluptatum illum rerum
+                    veritatis tempora temporibus, sed quasi necessitatibus. Aut consectetur sapiente, facere quidem iure
+                    tenetur voluptatibus? In nobis labore quos maxime recusandae deserunt! Architecto quod quas qui
+                    natus. Minima dicta ea unde laboriosam, doloremque praesentium tempora quisquam recusandae. Tempore
+                    sunt et expedita blanditiis, facere cum ipsam eligendi non nostrum iusto saepe libero necessitatibus
+                    consequuntur nemo minus magni repellendus!
+                </div>
+                <div class="col-lg-6">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quis sed, laborum voluptatum
+                    magnam, tempore dicta ipsa natus minima quasi quam officiis similique aliquid asperiores sunt
+                    voluptate nam nemo. Fuga labore id asperiores harum perspiciatis inventore magnam est veritatis
+                    corporis aspernatur officia, dolorem deleniti libero atque. Voluptatum soluta debitis quibusdam
+                    exercitationem, neque ad aperiam error sit, distinctio voluptates nisi fuga earum facere quos vel
+                    laborum numquam quidem possimus totam deserunt voluptatem aliquam! Molestias, facere saepe nesciunt
+                    hic rem beatae velit tenetur ipsam cum, voluptas et. Officia, nulla fugit incidunt fugiat omnis sunt
+                    impedit culpa hic. Recusandae, illum! Eum sequi tenetur eius odio velit id nesciunt recusandae
+                    laudantium veritatis praesentium nostrum facere dignissimos, expedita suscipit esse unde. Saepe
+                    numquam error enim.
+                </div>
+            </div>
         </div>
     </div>
 </body>
