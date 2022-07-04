@@ -1,4 +1,8 @@
-#web-title{
+* {
+    font-family: 'Gantari', sans-serif;
+}
+
+#web-title {
     text-decoration: none;
     color: aliceblue;
 }
@@ -7,8 +11,9 @@
     background: #37517e;
     padding: 20px;
 }
-#navbar > ul ,
-#navbar{
-    background-color: transparent ;
+
+#navbar>ul,
+#navbar {
+    background-color: transparent;
 
 }
